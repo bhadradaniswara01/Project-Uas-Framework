@@ -148,7 +148,7 @@ export default function AuthenticatedLayout({ header, children }) {
                     }
                 >
                     <div className="space-y-1 pb-3 pt-2">
-                        {/* KODE BARU: Menu Dashboard Khusus Mahasiswa (Tampilan HP) */}
+                        {/*Menu Dashboard Khusus Mahasiswa (Tampilan HP) */}
                         {user.role === 'user' && (
                             <ResponsiveNavLink
                                 href={route('dashboard')}
